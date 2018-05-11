@@ -15,8 +15,8 @@ From: willmclaren/ensembl-vep
 
 %post
     # copying vep installation 
-    mkdir -p /opt;
-    cp -r /home/* /opt;
+    #mkdir -p /opt;
+    #cp -r /home/* /opt;
     
     mkdir -p /opt/vep/.vep;
     # install data for yeast BY
