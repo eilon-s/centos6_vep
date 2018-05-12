@@ -14,9 +14,6 @@ From: willmclaren/ensembl-vep
     export LANGUAGE LANG LC_ALL
 
 %post
-    # copying vep installation 
-    #mkdir -p /opt;
-    #cp -r /home/* /opt;
     
     mkdir -p /opt/vep/.vep;
     # install data for yeast BY
